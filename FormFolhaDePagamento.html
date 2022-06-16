@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Folha de Pagamento</title>
+
+    <link rel="stylesheet" href="css/FolhaPagamento.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Folha de Pagamento</h1>
+        <div class="row">
+            <label for="txtNome">Nome:</label>
+            <input type="text" id="txtNome" />
+        </div>
+        <div class="row">
+            <label for="txtSalario">Salário:</label>
+            <input type="number" id="txtSalario" />
+        </div>
+        <div class="row">
+            <label for="txtDependentes">Dependentes:</label>
+            <input type="number" id="txtDependentes" />
+        </div>
+        <div class="row">
+            <input type="button" value="Calcular" onclick="Calcular();" />
+        </div>
+        </div>
+
+        <div class="container" id="dvResultados">
+        <h3>Resultado</h3>
+
+        <div class="row">
+            <label>Funcionário: </label>
+            <input type="text" id="txtResultNome" readonly />
+        </div>
+        <div class="row">
+            <label>Salário Bruto: </label>
+            <input type="text" id="txtResultSalarioBruto" readonly />
+        </div>
+        <div class="row">
+            <label>Dependentes: </label>
+            <input type="text" id="txtResultDependentes" readonly />
+        </div>
+        <div class="row">
+            <label>INSS: </label>
+            <input type="text" id="txtResultInss" readonly />
+        </div>
+        <div class="row">
+            <label>IRRF: </label>
+            <input type="text" id="txtResultIRRF" readonly />
+        </div>
+        <div class="row">
+            <label>Assist. Médica: </label>
+            <input type="text" id="txtResultAM" readonly />
+        </div>
+        <div class="row">
+            <label>Total Descontos: </label>
+            <input type="text" id="txtResultDescontos" readonly />
+        </div>
+        <div class="row">
+            <label>Salário Líquido: </label>
+            <input type="text" id="txtResultSalarioLiquido" readonly />
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/CalculosPagamento.js"></script>
+    <script type="text/javascript" src="js/FormFolhaDePagamento.js"></script>
+</body>
+</html>
