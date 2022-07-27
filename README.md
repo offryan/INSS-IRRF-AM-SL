@@ -1,6 +1,6 @@
 # FolhaDePagamentos
 
-Programa em JavaScript para calcular seu:
+#Programa em JavaScript para calcular seu:
 
 INSS;
 IRRF;
