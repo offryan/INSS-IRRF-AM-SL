@@ -2,8 +2,8 @@
 
 Programa em JavaScript para calcular seu:
 
-INSS;
-IRRF;
+INSS - O Instituto Nacional do Seguro Social;
+IRRF - Imposto de Renda Retido na Fonte;
 Assistência Médica;
 Salário Líquido.
 
